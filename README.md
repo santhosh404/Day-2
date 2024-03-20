@@ -1,8 +1,8 @@
-Difference between Window object and Document Object <br />
-<b>Have also written blog in medium.com. Please refer: https://santhoshblogs.medium.com/difference-between-window-and-document-objects-in-javascript-0a49704d248f</b>
+<h1>Difference between Window object and Document Object</h1> <br />
+<h3><b>Have also written blog in medium.com. Please refer: https://santhoshblogs.medium.com/difference-between-window-and-document-objects-in-javascript-0a49704d248f</b><h3>
 
 
-References : <br />
+<b>References</b> : <br />
 
   <b>Medium</b> <br />
   https://medium.com/@vishnukchandran/difference-between-document-vs-window-object-in-javascript-fad8d2fd1856 <br />
