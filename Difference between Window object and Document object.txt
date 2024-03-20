@@ -1,0 +1,115 @@
+
+Web API's: 
+
+    * Javascript has the couple of web API's which is pre-loaded into the browser.
+    * When writing code for the Web, there are a large number of Web APIs available. Below is a list of all the APIs and 
+      interfaces (object types) that you may be able to use while developing your Web app or site.
+    * These APIs offer pre-defined methods and properties that empower you to leverage features beyond the 
+      core capabilities of JS.
+
+    * Here are some common examples:
+
+        DOM Manipulation - The Document Object Model (DOM) API provides methods to access and modify the structure and content of 
+                           your webpage's HTML. Think of it as manipulating building blocks (like paragraphs, images, forms) to 
+                           dynamically alter the webpage's layout.
+        
+        Fetch API        - This modern API streamlines the process of fetching data from servers. Imagine sending a request for 
+                           information from a remote location (server) and receiving the response.
+        
+        Geolocation API  - With the user's permission, this API allows you to retrieve the user's geographic location data, 
+                           adding a layer of context to your web application. Imagine pinpointing the user's location on a map.
+
+    Important: 
+
+        Document - The interface (types of object) which is present inside the DOM Manipulation Web API.
+        Window   - While the Window object isn't part of a specific Web API, it serves as a gateway to interact with many 
+                   Web APIs. Here's how:
+
+
+
+Window Object:     
+
+    * It is the object of the browser and it is the global element for all objects, functions etc..
+
+    * The Window object is a core, built-in object in JavaScript itself. It provides global properties and methods for interacting
+      with the browser window,  accessing document information, and manipulating the browser environment. It acts as the foundation
+      for most JavaScript functionality within a webpage.
+
+    * It serves as the highest-level object, providing a global namespace for variables and functions accessible throughout your 
+      entire webpage. Think of it as the mayor of a city, overseeing everything that happens within its boundaries.
+    
+    * Additionally when you create any variables using Var (keyword) it'll store the variable inside the window object
+
+        Here's where the window object shines:
+
+            Browser Interaction: 
+                
+                * It grants you access to methods like alert(), confirm(), and prompt(). These methods enable you to interact with 
+                  the browser and the user directly. 
+
+            Window Properties: 
+
+                * It provides a wealth of information about the window itself, including its dimensions (innerWidth and innerHeight)
+                  location (location), and even a reference to its very own document object (document). The mayor has access to 
+                  data about the city's size, geographical coordinates, and important buildings (the document).
+
+            Global Scope: 
+                
+                * Any variable declared directly within the window object becomes globally accessible. This can be convenient for 
+                  certain situations, but be cautious – overuse can lead to messy and difficult-to-maintain code.
+
+
+Document Object:
+
+    * The Document object is the HTML document that appears in the browser window and serves as an interface for interacting with 
+      the web page’s content. The browser generates a Document Object Model of a web page upon loading it
+
+    What is Document Object Model ?
+
+        * The DOM is a logical tree in a document, with methods allowing programmatic access to change its structure, style, or 
+          content.
+
+    * The document object, on the other hand, focuses on the content displayed within the window. It represents the HTML structure
+      of your webpage, acting as the root of the Document Object Model (DOM).  Think of it as the city blueprint, outlining the 
+      buildings, streets, and parks (HTML elements)
+
+      The document object empowers you to:
+
+        * DOM Manipulation: Using powerful methods like getElementById() and createElement(), you can dynamically modify the 
+                            webpage's content. You can add, remove, and change elements, essentially reshaping the city according 
+                            to your needs. Imagine constructing new buildings (elements), demolishing old ones, or renovating 
+                            existing ones.
+
+        * Content Access: It provides access to the webpage's title (title), character encoding (charset), and the body element 
+                          (body), allowing you to interact with the webpage's core content. Imagine the document object as a 
+                          detailed map with information about the city's name, language, and the central area (body).
+
+        * Event Handling: The document object facilitates the attachment of event listeners to elements. This makes your webpage 
+                          interactive – you can define how the webpage should respond to user actions like clicks, scrolls, or 
+                          form submissions. Imagine assigning functionalities to different parts of the city (buttons, forms) 
+                          to handle user interactions, like opening doors or submitting requests.
+
+
+    *  Few properties and methods of Document Object Model,
+
+                element.innerHTML = new html content - Change the inner HTML of an element
+                element.attribute = new value        - Change the attribute value of an HTML element
+
+                Methods: 
+
+                    document.createElement(element) - Create an HTML element
+                    document.removeChild(element)   - Remove an HTML element
+
+
+
+Summary: 
+
+    * The window object provides the overall window context and global functionalities, while the document object delves into 
+    the webpage's content and structure. Together, they form a powerful duo for crafting dynamic and interactive web experiences.
+
+Analogy: 
+
+    * Think of the Window object as the mayor's office in a city. The mayor (Window object) has various departments (Web APIs) 
+      under its jurisdiction, like the transportation department (Fetch API) or the parks department (Geolocation API). Citizens 
+      (your JavaScript code) can interact with the city (browser environment) through the mayor's office (Window object) to 
+      access services provided by different departments (Web APIs).
